@@ -91,8 +91,8 @@ Propensity to Buy
 
 # MAGIC %md-sandbox
 # MAGIC ### Governance ###
-# MAGIC <img src="https://raw.githubusercontent.com/bhadreshshiyal/MumbaiDIDays/main/GovernanceChallenge.jpg?token=GHSAT0AAAAAACR5BAFFH5AH2NNSYUOQ3MLGZRY4WGA"
-# MAGIC  style="float: center; margin-right: 10px" width="900px" />
+# MAGIC <img src="https://raw.githubusercontent.com/bhadreshshiyal/MumbaiDIDays/main/resources/GovernanceChallenge.jpg?token=GHSAT0AAAAAACR5BAFFX6335R3WL2NMTEI2ZR2F5QA"
+# MAGIC  style="float: center; margin-right: 10px" width="1300px" />
 # MAGIC
 # MAGIC
 # MAGIC
