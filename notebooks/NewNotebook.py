@@ -90,6 +90,20 @@
 # MAGIC %md
 # MAGIC #### Lakehouse Federation Demo ####
 # MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor/18a989fe-cd2a-425b-bb31-62a73825c506?o=984752964297111
+# MAGIC
+# MAGIC CREATE CONNECTION postgres_connection_didaymumbai TYPE postgresql
+# MAGIC OPTIONS (
+# MAGIC   host 'demo-pgsql.postgres.database.azure.com',
+# MAGIC   port '5432',
+# MAGIC   user 'dbadmin',
+# MAGIC   password 'vgDB@16484!!'
+# MAGIC );
+# MAGIC
+# MAGIC CREATE FOREIGN CATALOG IF NOT EXISTS postgres_didaymumbai USING CONNECTION postgres_connection_didaymumbai
+# MAGIC OPTIONS (database 'postgres');
+# MAGIC
+# MAGIC select * from `postgres_didaymumbai`.`public`.`churn` limit 100;
+# MAGIC
 
 # COMMAND ----------
 
