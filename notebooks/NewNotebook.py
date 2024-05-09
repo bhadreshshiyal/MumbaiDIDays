@@ -46,29 +46,25 @@
 
 # COMMAND ----------
 
-# MAGIC %sql
+# MAGIC %md
+# MAGIC #### DB SQL AI Demo ####
+# MAGIC
+# MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor/18a989fe-cd2a-425b-bb31-62a73825c506?o=984752964297111
+# MAGIC
 # MAGIC SELECT ai_gen('Generate a concise, cheerful email title for a launch of new LED TV product');
-
-# COMMAND ----------
-
-# MAGIC %sql
+# MAGIC
 # MAGIC SELECT ai_translate("Your Product is so amazing!", "hi")
-
-# COMMAND ----------
-
-# MAGIC %sql
+# MAGIC
 # MAGIC SELECT ai_fix_grammar('This sentence have some mistake. Pleas made corection.');
-
-# COMMAND ----------
-
-# MAGIC %sql
+# MAGIC
 # MAGIC SELECT
 # MAGIC   AI_QUERY(
 # MAGIC     "databricks-dbrx-instruct",
-# MAGIC     "Generate a short product descrioption for a new credit card of a bank."
+# MAGIC     "Generate a short product descrioption for a new credit card named Platinum"
 # MAGIC   ) as product_review
 # MAGIC
-# MAGIC   
+# MAGIC
+# MAGIC
 
 # COMMAND ----------
 
