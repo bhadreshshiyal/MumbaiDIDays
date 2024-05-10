@@ -3,11 +3,6 @@
 # MAGIC
 # MAGIC <img src="https://raw.githubusercontent.com/bhadreshshiyal/MumbaiDIDays/main/resources/Governance2.png?token=GHSAT0AAAAAACR5BAFESEE5WJ7POGRIMZXUZR23JVA"
 # MAGIC  style="float: center; margin-right: 10px" width="1100px" />
-# MAGIC
-# MAGIC
-# MAGIC Data and AI Governance Complexity 
-# MAGIC
-# MAGIC Most of us will agree that Data and AI Governance is complex. To make data easily accessible as and when it is required by anyone with the permissions to do so is in the most secured and governed manner is a key challenge with which data professionals deal with regularly. 
 
 # COMMAND ----------
 
@@ -21,11 +16,7 @@
 # MAGIC
 # MAGIC <img src="https://raw.githubusercontent.com/bhadreshshiyal/MumbaiDIDays/main/resources/LanguageBarrier.png?token=GHSAT0AAAAAACR5BAFEMETEJDRC74L37FNIZR25UOA" style="float: center; margin-right: 10px" width="1100px" />
 # MAGIC  
-# MAGIC ### Query Langauge Barrier ####
 # MAGIC
-# MAGIC
-# MAGIC
-# MAGIC Many know SQL and Python but there are many Business Analysts, Functional people who may not know how to write a SQL query to interact with the data. Here, Query Lanageuge barrier becomes the biggest hurdle to generate insights out of the data already avaiable with you.
 
 # COMMAND ----------
 
@@ -47,9 +38,9 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### DB SQL AI Demo ####
+# MAGIC #### AI Functions Demo ####
 # MAGIC
-# MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor/18a989fe-cd2a-425b-bb31-62a73825c506?o=984752964297111
+# MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor/9fea626b-0f17-4e92-917e-6910e886f9c0?o=984752964297111
 # MAGIC
 # MAGIC SELECT ai_gen('Generate a concise, cheerful email title for a launch of new LED TV product');
 # MAGIC
@@ -89,7 +80,7 @@
 
 # MAGIC %md
 # MAGIC #### Lakehouse Federation Demo ####
-# MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor/18a989fe-cd2a-425b-bb31-62a73825c506?o=984752964297111
+# MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor?o=984752964297111
 # MAGIC
 # MAGIC CREATE CONNECTION postgres_connection_didaymumbai TYPE postgresql
 # MAGIC OPTIONS (
