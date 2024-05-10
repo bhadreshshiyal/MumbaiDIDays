@@ -79,7 +79,7 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Lakehouse Federation Demo ####
+# MAGIC #### Lakehouse Federation with PostgreSQL Demo ####
 # MAGIC https://adb-984752964297111.11.azuredatabricks.net/sql/editor?o=984752964297111
 # MAGIC
 # MAGIC CREATE CONNECTION postgres_connection_didaymumbai TYPE postgresql
